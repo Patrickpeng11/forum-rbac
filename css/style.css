@@ -1,0 +1,360 @@
+body {
+background-image: url("1.jpg");
+	margin:0px;
+	padding:0px;
+	font-family:Arial;
+
+}
+
+a {
+	text-decoration:none;
+	font-family:Arial;
+}
+
+ul {
+	margin:0px;
+	padding:0px;
+}
+
+li {
+	list-style:none;
+}
+
+img {
+	border:none;
+}
+
+#wrapper {
+	width:1200px;
+	margin:0 auto;
+	box-shadow:0px 0px 10px #ccc;
+}
+
+#footer {
+	height:30px;
+	line-height:30px;
+	background:#ccc;
+	text-align:center;
+	margin-top:50px;
+}
+
+#header {
+	text-align:right;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;
+}
+
+#header a {
+	font-size:1.2em;
+	color:black;
+}
+
+#header a:hover {
+	color:red;
+}
+
+#header .split {
+	margin:0px 10px;
+}
+
+.login {
+	width:50%;
+	margin:0 auto;
+}
+
+.login .title {
+	text-align:center;
+	font-size:2em;
+	padding:20px 0px;
+}
+
+.login .item {
+	margin-bottom:20px;
+}
+
+.login .sub {
+	font-weight:bold;
+}
+
+.login input {
+	width:99%;
+	height:30px;
+	padding-left:10px;
+}
+
+.login input.radio {
+	width:auto;
+	height:auto;
+	padding-left:0px;
+}
+
+.login button {
+	background:green;
+	color:white;
+	border:none;
+	padding:10px 30px;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.login .info {
+	margin-top:20px;
+}
+
+.login .info .frametitle {
+	height:30px;
+	line-height:30px;
+	background:#C96;
+	color:white;
+	padding-left:10px;
+}
+
+.login .info .frame {
+	border:1px solid #ccc;
+	border-top:none;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+.login .info .frame input {
+	width:95%;
+}
+
+.login .info .frame .key {
+	font-weight:bold;
+}
+
+.warning {
+	color:red;
+}
+
+.right {
+	color:green;
+}
+
+#nav {
+	height:40px;
+	line-height:40px;
+	background-color: purple;
+}
+
+#nav ul {
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+}
+
+#nav ul li {
+	float:left;
+	margin:0px 30px;
+}
+
+#nav ul li a {
+	color:white;
+}
+
+#nav ul li.active a {
+	color:white;
+}
+
+#nav ul li a:hover {
+	color:white;
+}
+
+.main {
+	min-height:500px;
+}
+
+.home {
+	width:80%;
+	margin:0 auto;
+	margin-top:30px;
+	border:1px solid #eee;
+}
+
+.home .title {
+	background:#eee;
+	height:30px;
+	line-height:30px;
+	padding-left:5px;
+	font-size:1.5em;
+}
+
+.home .topics {
+	padding:20px;
+}
+
+.home .topics li {
+	background:#eee;
+	margin-bottom:20px;
+	padding:5px 0px;
+	padding-left:10px;
+}
+
+.home .topics li .controls {
+	float:right;
+	margin-right:5px;
+}
+
+.home .topics li .controls a {
+	margin:0px 5px;
+	text-decoration:underline;
+}
+
+.home .topics li a {
+	font-size:1.3em;
+}
+
+.home .now {
+	color:gray;
+}
+
+.home .posttitle {
+	font-weight:bold;
+	font-size:1.1em;
+	margin-bottom:3px;
+}
+
+.home .comment {
+	margin-top:50px;
+	border-top:1px solid #666;
+	padding-bottom:30px;
+	padding:20px;
+}
+
+.home .comment .subcomment {
+	margin-top:30px;
+}
+
+.home .comment .subcomment .name {
+	font-weight:bold;
+}
+
+.home .allusers {
+	overflow:hidden;
+	width:90%;
+	margin:0 auto;
+	padding:10px 0px;
+}
+
+.home .allusers .item {
+	float:left;
+	width:50%;
+	margin-bottom:5px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.home2 {
+	width:80%;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+.home2 input {
+	width:100%;
+	height:25px;
+}
+
+.home2 button {
+	margin-top:3px;
+}
+
+button {
+	background:blue;
+	color:white;
+	border:0px;
+	border-radius:5px;
+	padding:7px 20px;
+	cursor:pointer;
+}
+
+.home2 .title {
+	font-weight:bold;
+	margin-top:10px;
+}
+
+.home2 textarea {
+	width:100%;
+	height:150px;
+	resize:none;
+}
+
+.change {
+	padding:20px;
+}
+
+.change .subchange {
+	margin-bottom:5px;
+}
+
+.change select {
+	width:200px;
+}
+
+.change button {
+	margin-top:5px;
+	padding:3px 10px;
+}
+
+.delete_topic {
+	cursor:pointer;
+	color:green;
+}
+
+.postcontrols {
+	text-align:right;
+	padding-right:10px;
+}
+
+.postcontrols a {
+	color:black;
+	text-decoration:underline;
+	margin:0px 10px;
+}
+
+.delete_post {
+	color:blue;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
